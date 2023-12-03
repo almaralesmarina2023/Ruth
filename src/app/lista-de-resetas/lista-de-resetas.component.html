@@ -1,0 +1,10 @@
+
+
+<div class="container p-5 my-5 border">
+    <div class="list-group">
+        <app-recetas *ngFor="let i of info.ListaRecetas, let j=index"  [j]="j" ></app-recetas><br>
+
+    </div>
+
+</div>
+<router-outlet></router-outlet>

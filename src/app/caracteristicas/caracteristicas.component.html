@@ -1,0 +1,19 @@
+
+<h1>{{info.ListaRecetas[id!].nombre}}</h1>
+
+<img [src]="info.ListaRecetas[id!].img">
+<div>
+    <table class=".table">
+        <tr>
+            <th>Ingredientes</th>
+            <th>Cantidad</th>       
+        </tr>
+        <tr *ngFor="let ingrediente of info.ListaRecetas[id!].ingredientes">
+            <td>{{ingrediente[0]}}</td>
+            <td>{{ingrediente[1]}}</td>
+        </tr>
+    </table>
+
+</div>
+
+

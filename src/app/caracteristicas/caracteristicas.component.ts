@@ -9,7 +9,7 @@ import { InfoRecetaService } from '../info-receta.service';
   styleUrls: ['./caracteristicas.component.css']
 })
 export class CaracteristicasComponent {
-  id?:number;
+  id:number=-1;
   
  
   constructor(private route: ActivatedRoute,public info:InfoRecetaService){   

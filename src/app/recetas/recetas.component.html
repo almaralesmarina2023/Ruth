@@ -1,10 +1,18 @@
-<a  class="list-group-item list-group-item-action" [routerLink]="['caracterist',j]">
-    <div>
-        <img src={{recetas[j].img}} class="float-start" class="img-fluid" height="15" >
-        <h2>{{recetas[j].nombre}}</h2>
-        <p>{{recetas[j].info}}</p>
-    </div>
-    
-</a>
+
+<div class="card mt-2 carta">
+
+    <a  class=" list-group-item" [routerLink]="['caracterist',j]">
+        <div class="card-body" >
+            <img src={{recetas[j].img}} class="img-thumbnail" >
+            <h4>{{recetas[j].nombre}}</h4>
+            <p>{{recetas[j].info}}</p>
+        </div>        
+    </a>
+
+
+</div>
+
+
+  
 
 

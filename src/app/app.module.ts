@@ -7,7 +7,9 @@ import { ListaDeResetasComponent } from './lista-de-resetas/lista-de-resetas.com
 import { RecetasComponent } from './recetas/recetas.component';
 import { CaracteristicasComponent } from './caracteristicas/caracteristicas.component';
 import { FormsModule } from '@angular/forms';
-import { AppRoutingModule } from './app-routing.module'
+import { AppRoutingModule } from './app-routing.module';
+import { ContactosComponent } from './contactos/contactos.component';
+import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component'
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { AppRoutingModule } from './app-routing.module'
     AppComponent,
     ListaDeResetasComponent,
     RecetasComponent,
-    CaracteristicasComponent
+    CaracteristicasComponent,
+    ContactosComponent,
+    QuienesSomosComponent
   ],
   imports: [
     BrowserModule,

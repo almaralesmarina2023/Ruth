@@ -1,0 +1,20 @@
+<div class="container-fluid ">
+    <div class="row row-cols-3 caja-exterior">
+        <div class="-cols-1 caja-lista">
+            <app-recetas  *ngFor="let i of info.ListaRecetas, let j=index"  [j]="j" ></app-recetas><br>
+        </div>
+        <div class="col-6 caja-derecha"> 
+            <router-outlet></router-outlet>
+        </div>
+        
+    </div>
+</div>
+
+
+
+ 
+    
+    
+    
+    
+   
